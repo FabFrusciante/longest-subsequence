@@ -57,4 +57,13 @@ function longestMatch(word, word_list) {
     return longestSubsequence;
 };
 
+let stringSequence = 'abppplee';
+let dictionary = [
+    'able',
+    'ale',
+    'apple',
+    'bale',
+    'kangaroo'
+];
+
 console.log(longestMatch(stringSequence, dictionary));
