@@ -1,9 +1,3 @@
-// Input stringSequence dynamically
-// Input text dynamically
-// Konverting text to array
-// Outsourcing of helper functions
-// Formatting with style guide
-
 function longestWord(word_list) {
     let longestWord = '';
     for (var element of word_list) {
