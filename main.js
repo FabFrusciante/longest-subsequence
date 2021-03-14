@@ -1,8 +1,3 @@
-// Input stringSequence dynamically
-// Input text dynamically
-// Konverting text to array
-// Outsourcing of helper functions
-// Formatting with style guide
 
 function longestWord(word_list) {
     let longestWord = '';
@@ -62,14 +57,5 @@ function longestMatch(word, word_list) {
     let longestSubsequence = longestWord(subsequences);
     return longestSubsequence;
 };
-
-let stringSequence = 'abppplee';
-let dictionary = [
-    'able',
-    'ale',
-    'apple',
-    'bale',
-    'kangaroo'
-];
 
 console.log(longestMatch(stringSequence, dictionary));
