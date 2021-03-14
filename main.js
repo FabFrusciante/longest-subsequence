@@ -1,4 +1,3 @@
-
 function longestWord(word_list) {
     let longestWord = '';
     for (var element of word_list) {
